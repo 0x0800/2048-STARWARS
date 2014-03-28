@@ -99,7 +99,8 @@ GameManager.prototype.localizeElements = function () {
         'keep-playing-button',
         'game-explanation',
         'disclaimer',
-        'tile-legend'
+        'tile-legend',
+        'credits'
       ];
     for (var i in elementArray) {
       LocalizeElement(elementArray[i]);
