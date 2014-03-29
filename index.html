@@ -38,6 +38,7 @@
         <div class="lower">
 	        <a class="keep-playing-button">Keep going</a>
           <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
         </div>
       </div>
 
@@ -86,7 +87,7 @@
     <p class="credits">
       Star Wars icons by <a href="http://sensibleworld.com/news/more-free-star-wars-icons/" title="Free Star Wars Icons by Sensible World">Jory Raphael</a>.
     </p>
-    <p class="repo-link"><small>hosted on <a href="https://github.com/0x0800/2048-STARWARS">GitHub</a></small></p>
+    <p class="repo-link"><small>hosted on <a href="https://github.com/0x0800/">GitHub</a></small></p>
   </div>
 
   <script src="js/bind_polyfill.js"></script>
@@ -101,7 +102,14 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
-  
+  <script>
+    window.twttr = (function (d,s,id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+      js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));
+  </script>
   <script type="text/javascript">
 
     var _gaq = _gaq || [];

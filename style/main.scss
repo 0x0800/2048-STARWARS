@@ -110,13 +110,14 @@ h1.title {
 }
 
 .score-container, .best-container {
-  $height: 25px;
+  $height: 19px;
 
   position: relative;
   display: inline-block;
   background: $game-container-background;
   padding: 15px 25px;
   font-size: $height;
+  text-transform: uppercase;
   height: $height;
   line-height: $height + 22px;
   font-weight: bold;
@@ -246,7 +247,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba($tile-color, .5);
+      background: rgba($tile-color, .7);
       z-index: 100;
 
       text-align: center;
@@ -274,6 +275,12 @@ hr {
 	&.keep-playing-button {
 	  display: none;
 	}
+      }
+      
+      .score-sharing {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
       }
 
       @include animation(fade-in 800ms ease $transition-speed * 12);
@@ -574,6 +581,10 @@ hr {
 
     .lower {
       margin-top: 30px !important;
+    }
+    
+    &.game-won .score-sharing {
+      margin-top: 10px;
     }
   }
 }

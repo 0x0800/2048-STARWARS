@@ -74,9 +74,10 @@ h1.title {
   display: inline-block;
   background: #3d2d49;
   padding: 15px 25px;
-  font-size: 25px;
-  height: 25px;
-  line-height: 47px;
+  font-size: 19px;
+  text-transform: uppercase;
+  height: 19px;
+  line-height: 41px;
   font-weight: bold;
   border-radius: 3px;
   color: #9e87ae;
@@ -96,8 +97,8 @@ h1.title {
     position: absolute;
     right: 30px;
     color: red;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 19px;
+    line-height: 19px;
     font-weight: bold;
     color: rgba(127, 111, 137, 0.9);
     z-index: 100;
@@ -182,7 +183,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(25, 25, 25, 0.5);
+    background: rgba(25, 25, 25, 0.7);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -212,6 +213,10 @@ hr {
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
+    .game-container .game-message .score-sharing {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px; }
     .game-container .game-message.game-won {
       background: rgba(255, 255, 255, 0.5);
       color: #9e87ae; }
@@ -588,7 +593,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(25, 25, 25, 0.5);
+      background: rgba(25, 25, 25, 0.7);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -618,6 +623,10 @@ hr {
         margin-left: 9px; }
         .game-container .game-message a.keep-playing-button {
           display: none; }
+      .game-container .game-message .score-sharing {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px; }
       .game-container .game-message.game-won {
         background: rgba(255, 255, 255, 0.5);
         color: #9e87ae; }
@@ -731,7 +740,9 @@ hr {
     line-height: 30px !important;
     margin-top: 90px !important; }
   .game-message .lower {
-    margin-top: 30px !important; } }
+    margin-top: 30px !important; }
+  .game-message.game-won .score-sharing {
+    margin-top: 10px; } }
 .legend-row {
   padding: 10px 5px; }
   .legend-row:after {
