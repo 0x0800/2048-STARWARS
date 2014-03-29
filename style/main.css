@@ -784,56 +784,56 @@ hr {
 
 .cell-2 {
   background: #191919;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-4 {
   background: #2f2f2f;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-8 {
   color: #9e87ae;
   background: #474747;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-16 {
   color: #9e87ae;
   background: #5e5e5e;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 .cell-32 {
   color: #9e87ae;
   background: #757575;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
 
 .cell-64 {
   color: #9e87ae;
   background: #8c8c8c;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
 
 .cell-128 {
   color: #9e87ae;
   background: #a3a3a3;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286); }
 
 .cell-256 {
   color: #9e87ae;
   background: #bababa;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048); }
 
 .cell-512 {
   color: #9e87ae;
   background: #d1d1d1;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381); }
 
 .cell-1024 {
   color: #9e87ae;
   background: #e8e8e8;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571); }
 
 .cell-2048 {
   color: #9e87ae;
   background: white;
-  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
 
 .repo-link {
   margin-top: 40px;

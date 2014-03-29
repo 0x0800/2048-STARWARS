@@ -670,7 +670,7 @@ $exponent: 1;
     $glow-opacity: max($exponent - 4, 0) / ($limit - 4);
 
     @if not $special-background {
-      box-shadow: 0 0 30px 10px rgba($tile-gold-glow-color, $glow-opacity / 1.8),
+      box-shadow: 0 0 30px 5px rgba($tile-gold-glow-color, $glow-opacity / 1.8),
                   inset 0 0 0 1px rgba(white, $glow-opacity / 3);
     }
   }
