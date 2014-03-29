@@ -24,12 +24,7 @@ h1.title {
   margin: 0;
   display: block;
   float: left; }
-
-.title-container {
-  position: relative;
-  display: inline-block;
-  padding-bottom: 10px; }
-  .title-container:after {
+  h1.title:after {
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -40,6 +35,11 @@ h1.title {
     text-align: center;
     font-weight: bold;
     content: "Star Wars"; }
+
+.title-container {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px; }
 
 @-webkit-keyframes move-up {
   0% {

@@ -42,6 +42,8 @@ $special-colors: false false, // 2
                  false true, // 1024
                  false true; // 2048
 
+$title-container-size: 30px;
+
 html, body {
   margin: 0;
   padding: 0;
@@ -68,28 +70,28 @@ h1.title {
   font-weight: bold;
   margin: 0;
   display: block;
-  float: left;  
+  float: left;
+  
+  &:after {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      text-transform: uppercase;
+      font-size: $title-container-size;
+      line-height: $title-container-size;
+      text-align: center;
+      font-weight: bold;
+      content: "Star Wars";
+  }
 }
 
 .title-container {
-    $title-container-size: 30px;
     
     position: relative;
     display: inline-block;
     padding-bottom: 10px;
-    
-    &:after {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        text-transform: uppercase;
-        font-size: $title-container-size;
-        line-height: $title-container-size;
-        text-align: center;
-        font-weight: bold;
-        content: "Star Wars";
-    }
+
 }
 
 @include keyframes(move-up) {
