@@ -122,7 +122,6 @@ GameManager.prototype.fillLegend = function () {
     grid.classList.add('legend-grid');
     cell.classList.add('legend-cell');
     cell.classList.add('cell-' + exp);
-    img.style.width = '100%';
     img.src = "style/img/" + exp + ".svg";
     cell.appendChild(img);
     grid.appendChild(cell);
