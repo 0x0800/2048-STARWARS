@@ -35,6 +35,28 @@ h1.title {
     text-align: center;
     font-weight: bold;
     content: "Star Wars"; }
+.heading:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+h1.title:hover {
+  font-size: 79px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  float: left; }
+  h1.title:after {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    content: "Star Wars"; }
 
 .title-container {
   position: relative;
