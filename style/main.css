@@ -35,10 +35,7 @@ h1.title {
     text-align: center;
     font-weight: bold;
     content: "Star Wars"; }
-.heading:after {
-  content: "";
-  display: block;
-  clear: both; }
+
 
 .title-container {
   position: relative;
